@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel="stylesheet" href="./style/project2.css">
+</head>
+
+<body>
+   <div class="overlay" id="overlay">
+      <h3>Searching Now...</h3>
+   </div>
+   <div class="hero-bg">
+
+      <section class="top">
+
+         <header>
+
+            <a href="#">yummy.eats</a>
+
+         </header>
+
+         <h1><span> The Healthy</span> Eating Experience</h1>
+
+         <p>Join us for a wonderful travel experience, with all the best of Thailand, Japan, Korea, Vietnam and India, free your five senses and go on an exciting adventure of discovering the most magical cultures in the world through the flavors, aromas, colors and sounds of East Asia.</p>
+         <div class="form-container">
+            <form action="">
+               <div class="form-left">
+                  <label for="city">Enter your city:</label>
+                  <input type="text" name="city" id="city">
+                  <p>Exanple: "San Diego"</p>
+               </div>
+
+               <input type="button" value="Find Food Now" id="cta-bth">
+            </form>
+         </div>
+      </section>
+   </div>
+
+   <section class="authentic">
+      <div class="right-col">
+         <h2>About Us...</h2>
+         <p>A modern Asian restaurant, a combination of traditional Asian food and an innovative cocktail bar.
+            A young place with a unique atmosphere that people come to eat and spend time with family and friends.
+            Whether it's a date at the bar, a meeting with friends around a table on the balcony, or just a desire for quality sushi,
+            Yummy is definitely the ideal place for that. We are open 7 days a week, from 12:00 to 23:00.</p>
+      </div>
+      <img src="./assets/img/food.jpg" alt="a food pic">
+
+
+   </section>
+   <script>
+
+      let bth = document.getElementById("cta-bth");
+      let overlay = document.getElementById("overlay");
+
+      bth.addEventListener("click", () => {
+         overlay.style.display = 'grid';
+         overlay.classList.add('animate-overlay')
+      })
+
+   </script>
+</body>
+
+</html>

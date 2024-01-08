@@ -1,0 +1,18 @@
+main {
+    text-align: center;
+}
+
+#btns {
+     margin: 2em;
+}
+
+a {
+    text-decoration: none;
+    background-color: brown;
+    color: bisque;
+    font-weight: bolder;
+    padding: 5em;
+    border-radius: 5em;
+    
+
+}

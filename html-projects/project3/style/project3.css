@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-header {
+    position:sticky;
+    top: 0;
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+
+
+#gallery {
+    text-align: center;
+}
+
+.container-footer,
+header {
+     
+    background-color: black;
+    color: azure;
+}
+
+
+ .container-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+ }
+
+
+ .card {
+    height: 300px;
+    width: 200px;
+    margin: 2em;
+    box-shadow: 5px 5px 15px gray;
+ }
+
+
+ .container-gallery {
+
+    margin: auto;
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
